@@ -1,0 +1,2 @@
+<? extends class> 代表的是下限值；?只允许是class的子类
+<? super class> 代表的是上限值；？必须是class的父类

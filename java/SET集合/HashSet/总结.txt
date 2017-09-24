@@ -1,0 +1,13 @@
+hashset没有顺序，随机访问。
+
+hashset不允许插入相同值，即使插入老值也会被新值重写。
+hashset无论插入多少null，最终只会打印出一个null。
+hashset没有线程同步。
+hashset为嘛不能单独读数据呢？那么hashset是用来干嘛的呢？
+
+
+hashset执行插入删除性能相当好，当需要排序的时候可以把该集合转换为TreeSet；
+
+treeset不能插入空值
+
+
